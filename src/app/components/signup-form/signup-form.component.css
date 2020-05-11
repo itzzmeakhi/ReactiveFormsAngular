@@ -1,0 +1,25 @@
+.signup-form-container {
+    margin-top: 70px;
+    padding: 40px 70px;
+    border-radius: 20px;
+    background: rgba(223,230,233,0.5);
+    box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
+}
+
+.error-alert {
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid #d63031;
+    color: #d63031;
+    font-weight: bold;
+}
+
+.error-alert p {
+    padding-top: 7px;
+}
+
+@media (max-width : 500px) {
+    .signup-form-container {
+        padding: 40px 50px;
+    }
+}
